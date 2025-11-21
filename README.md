@@ -1,6 +1,6 @@
 # Burger Flipper 🍔
 
-### Burger Clicker is a gloriously greasy sprint toward ever-bigger burgers, built one indulgent tap at a time.
+### Burger Flipper is a gloriously greasy sprint toward ever-bigger burgers, built one indulgent tap at a time.
 ##### Building a cookie-clicker clone teaches the sneaky art of incremental game loops while distracting you with the primal joy of making imaginary numbers get very large. It’s basically a lesson in resource systems disguised as sanctioned button-mashing hedonism.
 ---
 ### Assets
