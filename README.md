@@ -20,4 +20,5 @@
 - [Spatula icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/spatula)
 - [Wrench icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/wrench)
 - [Ketchup icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/ketchup)
+- [Seasoning icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/seasoning)
 ---
