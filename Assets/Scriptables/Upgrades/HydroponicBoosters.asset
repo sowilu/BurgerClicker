@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e091ba87e2b74643a48e855c6f97a3b, type: 3}
+  m_Name: HydroponicBoosters
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 7c05d654e11564e45a9bd0a76d218e03, type: 3}
+  upgradeName: Hydroponic Boosters
+  upgradeType: 1
+  value: 2
+  targetBuilding: {fileID: 11400000, guid: 9217c18d4bb034064987815593563ad7, type: 2}
+  cost: 120
+  purchased: 0
