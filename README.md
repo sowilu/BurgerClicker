@@ -3,7 +3,7 @@
 ### Burger Flipper is a gloriously greasy sprint toward ever-bigger burgers, built one indulgent tap at a time.
 ##### Building a cookie-clicker clone teaches the sneaky art of incremental game loops while distracting you with the primal joy of making imaginary numbers get very large. It’s basically a lesson in resource systems disguised as sanctioned button-mashing hedonism.
 ---
-<img width="417" height="314" alt="Screenshot 2025-12-12 at 12 22 58" src="https://github.com/user-attachments/assets/62a8a992-fedb-497a-bc1f-818dae56ed4a" />
+![image]("https://github.com/user-attachments/assets/62a8a992-fedb-497a-bc1f-818dae56ed4a")
 ---
 ### Assets
 - [Models](https://kenney.nl/assets/food-kit)
