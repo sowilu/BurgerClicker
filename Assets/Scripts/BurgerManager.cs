@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 public class BurgerManager : MonoBehaviour
 {
@@ -8,6 +10,10 @@ public class BurgerManager : MonoBehaviour
     public List<Building> allBuildings;
     public List<Upgrade> allUpgrades;
     public double burgersPerSecond;
+    
+    public static UnityEvent<Building> OnBuildingBought = new();
+    public static UnityEvent OnUniqueBuildingBought = new();
+    public static UnityEvent<Upgrade> OnUpgradeBought = new();
 
     void Update()
     {
@@ -25,9 +31,18 @@ public class BurgerManager : MonoBehaviour
 
         if (burgers >= scaledCost)
         {
+            OnBuildingBought.Invoke(building);
+            
             burgers -= scaledCost;
             building.ownedAmount++;
+            
+            if (!allBuildings.Contains(building))
+            {
+                OnUniqueBuildingBought.Invoke();
+            }
             allBuildings.Add(building);
+            
+
             RecalculateBPS();
         }
     }
@@ -36,6 +51,8 @@ public class BurgerManager : MonoBehaviour
     {
         if (upgrade.purchased == false && burgers >= upgrade.cost)
         {
+            OnUpgradeBought.Invoke(upgrade);
+            
             burgers -= upgrade.cost;
             upgrade.purchased = true;
             allUpgrades.Add(upgrade);

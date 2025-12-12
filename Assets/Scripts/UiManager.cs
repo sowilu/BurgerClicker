@@ -12,6 +12,6 @@ public class UiManager : MonoBehaviour
     void Update()
     {
         clicksText.text = burgerManager.burgers.ToString("F0");
-        bpsText.text = burgerManager.burgersPerSecond.ToString("F0") + " bps";
+        bpsText.text = burgerManager.burgersPerSecond.ToString("F2") + " bps";
     }
 }

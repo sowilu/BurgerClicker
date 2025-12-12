@@ -39,9 +39,15 @@ public class ShopItemUI : MonoBehaviour
             priceText.text = upgradeData.cost.ToString("F0") + " Burgers";
 
             if (upgradeData.purchased)
+            {
                 amountText.text = "Purchased";
+                buyButton.gameObject.SetActive(false);
+            }
             else
+            {
                 amountText.text = "";
+                buyButton.gameObject.SetActive(true);
+            }
         }
 
         buyButton.onClick.RemoveAllListeners();
