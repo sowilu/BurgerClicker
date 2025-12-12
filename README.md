@@ -6,7 +6,7 @@
 <p>
 <img width="417" height="314" alt="Screenshot 2025-12-12 at 12 22 58" src="https://github.com/user-attachments/assets/62a8a992-fedb-497a-bc1f-818dae56ed4a" />
 </p>
----
+
 ### Assets
 - [Models](https://kenney.nl/assets/food-kit)
 - [Sound Effects](https://kenney.nl/assets/interface-sounds)
